@@ -9,3 +9,13 @@ function destructivelyAddElementToBeginningOfArray(newArray, name) {
   newArray.unshift(name)
   return newArray
 }
+
+function addElementToEndOfArray(chocolateBars, name) {
+  const newChocolateBars = [...chocolateBars,name]
+  return newChocolateBars
+}
+
+function destructivelyAddElementToEndOfArray(newArray, name) {
+  newArray.push(name)
+  return newArray
+}
