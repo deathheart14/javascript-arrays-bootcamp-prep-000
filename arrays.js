@@ -5,7 +5,7 @@ function addElementToBeginningOfArray(chocolateBars, name) {
   return newChocolateBars
 }
 
-function destructivelyAddElementToBeginningOfArray(array, name) {
-  array.push(name)
-  return array
+function destructivelyAddElementToBeginningOfArray(newArray, name) {
+  newArray.push(name)
+  return newArray
 }
